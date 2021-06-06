@@ -1,0 +1,67 @@
+[
+    {
+        "id": "start",
+        "directions": [
+            {
+                "id": "a",
+                "weight": 5
+            },
+            {
+                "id": "b",
+                "weight": 2
+            }
+        ]
+    },
+    {
+        "id": "a",
+        "directions": [
+            {
+                "id": "c",
+                "weight": 4
+            },
+            {
+                "id": "d",
+                "weight": 2
+            }
+        ]
+    },
+    {
+        "id": "b",
+        "directions": [
+            {
+                "id": "a",
+                "weight": 8
+            },
+            {
+                "id": "d",
+                "weight": 7
+            }
+        ]
+    },
+    {
+        "id": "c",
+        "directions": [
+            {
+                "id": "d",
+                "weight": 6
+            },
+            {
+                "id": "finish",
+                "weight": 3
+            }
+        ]
+    },
+    {
+        "id": "d",
+        "directions": [
+            {
+                "id": "finish",
+                "weight": 1
+            }
+        ]
+    },
+    {
+        "id": "finish",
+        "directions": []
+    }
+]

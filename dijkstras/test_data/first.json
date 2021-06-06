@@ -1,0 +1,41 @@
+[
+  {
+    "id": "start",
+    "directions": [
+      {
+        "id": "a",
+        "weight": 6
+      },
+      {
+        "id": "b",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "a",
+    "directions": [
+      {
+        "id": "finish",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "b",
+    "directions": [
+      {
+        "id": "a",
+        "weight": 3
+      },
+      {
+        "id": "finish",
+        "weight": 5
+      }
+    ]
+  },
+  {
+    "id": "finish",
+    "directions": []
+  }
+]

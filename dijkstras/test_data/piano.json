@@ -1,0 +1,63 @@
+[
+    {
+        "id": "start",
+        "directions": [
+            {
+                "id": "music plate",
+                "weight": 5
+            },
+            {
+                "id": "poster",
+                "weight": 0
+            }
+        ]
+    },
+    {
+        "id": "music plate",
+        "directions": [
+            {
+                "id": "guitar",
+                "weight": 15
+            },
+            {
+                "id": "drum",
+                "weight": 20
+            }
+        ]
+    },
+    {
+        "id": "poster",
+        "directions": [
+            {
+                "id": "guitar",
+                "weight": 30
+            },
+            {
+                "id": "drum",
+                "weight": 35
+            }
+        ]
+    },
+    {
+        "id": "guitar",
+        "directions": [
+            {
+                "id": "finish",
+                "weight": 20
+            }
+        ]
+    },
+    {
+        "id": "drum",
+        "directions": [
+            {
+                "id": "finish",
+                "weight": 10
+            }
+        ]
+    },
+    {
+        "id": "finish",
+        "directions": []
+    }
+]
